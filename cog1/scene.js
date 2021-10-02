@@ -705,8 +705,8 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 		if(polycount != 0) {
 			str = "polys: " + polycount;
 			displayText(str, 10, 38, true);
-			polycount++;
 		}
+		polycount++;
 	}
 
     //////////////////////////////////////////
