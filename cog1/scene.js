@@ -326,6 +326,7 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 
 			// Raster the 2D polygons of the node.
 			renderModel(nodes[i].getModel());
+			polycount++;
 		}
 
 		framebuffer.display();
