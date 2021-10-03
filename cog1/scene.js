@@ -385,7 +385,6 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 			var polygon = polygons[p];
 			var normal = polygonNormals[p];
 			var color = modelData.colors[modelData.polygonColors[p]];
-			polycount++;
 			if(texture != null) {
 				var polygonTextureCoord = modelData.polygonTextureCoord[p];
 			}
