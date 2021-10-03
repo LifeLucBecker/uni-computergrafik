@@ -326,7 +326,6 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 
 			// Raster the 2D polygons of the node.
 			renderModel(nodes[i].getModel());
-			polycount++;
 		}
 
 		framebuffer.display();
@@ -386,6 +385,7 @@ function(exports, dojo, domStyle, app, scenegraph, createScene, animation, raste
 			var polygon = polygons[p];
 			var normal = polygonNormals[p];
 			var color = modelData.colors[modelData.polygonColors[p]];
+			polycount++;
 			if(texture != null) {
 				var polygonTextureCoord = modelData.polygonTextureCoord[p];
 			}
