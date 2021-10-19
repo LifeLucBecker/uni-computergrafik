@@ -4,7 +4,7 @@
   "description": "Computergrafik 1",
   "main": "index.html",
   "scripts": {
-    "deploy": "gh-pages -d . -b main --repo https://github.com/ribuah/ribuah.github.io"
+    "deploy": "gh-pages -d . -b main --repo https://github.com/LifeLucBecker/uni-computergrafik"
   },
   "author": "Hicham Naoufal",
   "license": "ISC",
